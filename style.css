@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(25, 4, 253);
+    font-size: 150%;
+    text-align: center;
+}
+.container{
+    margin-left: 10%;
+    background-color: #EEEE;
+    margin-right: 10%;
+    height: 90vh;
+    padding: 10px;
+}
+.form{
+    padding-left: 0;
+}
+input[type=text]{
+    color: red;
+    width: 70%;
+    border:none;
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+    padding: 1px;
+    resize: vertical;
+}
+input[type=text]:focus{
+    border:none;
+    border-bottom: 2px solid rgba(6, 169, 20, 0.933);
+}
+button[type=submit]{
+    color: blue;
+    border
+    font-size: 20px;
+    font-weight: bold;
+    align-content: center;
+    padding: 3%;
+}
